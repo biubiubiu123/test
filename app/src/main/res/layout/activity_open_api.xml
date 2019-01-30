@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="根据客户号查询账户信息(checkCusState)"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_01"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="发送短信验证码(sendSmsCode)"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_02"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="验证短信验证码(checkSmsCode)"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_03"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="身份证OCR识别(本地)"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_04"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="人脸识别图片上传(faceImageUpload)"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_05"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="用户及客户信息建立(createCus)"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_06"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="鉴权及开户绑卡接口(createAcct)"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_07"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="绑定账户查询(checkBindCard)"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_08"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="充值(inPour)"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_09"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="提现(withDraw)"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_10"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="钱包支付(walletPay)"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_11"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="威富通预支付接口(wechatPay)"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_12"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="鉴权及绑卡接口(authenticationBindCard)"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_13"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="绑定账户维护(bindAcctMaintenance)"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_14"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="密码重置(resetPassword)"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_15"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="修改密码(changePassword)"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_16"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="查询订单(checkTradeDetai)"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/openApi_btn_17"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/select_btn_next"
+                    android:minWidth="80dp"
+                    android:onClick="onClick"
+                    android:text="调用"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#dcdcdc" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
