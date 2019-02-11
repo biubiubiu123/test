@@ -40,6 +40,7 @@ public class MainActivity extends com.open.ccb.ccbdemo.BaseActivity implements S
 
 
     public String a = "1";
+    public String c = "3";
     public String appKey = "bd97a304_786c_4d86_893e_ab806052656d";
     public String bPublicUrl = "http://128.196.221.13:16688/getMerchantSign";
     public String bPublicKey =   "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAixGPNxb9EPpHG5v8S8WuHrA+NmTNRuX1k07eQ7Z9jAU2BjhFdwYQmH4wpbsx6z5v8tVwDyOb11BNzTJ8gZ79zFnC6LKShsx1WQYa9U24DmOlvIkxMMkjeUzReNvCA659kotmHrDTbLNM+3RFlCRz75efGMOqup07t9flt+7U8DAk38MZ1TxEdZnlXaPjUATvl18MgSlB12gakpsSMXDZ0bJNmRgmUirJ2Tqbi2IK3mcLc8ZT/GU+j9z4Zo5yFZiDAtbjvfZBUcVDwNgetlk/YX+NA+gcYHMBbCnb0uuK+oYGZ2gtt56jT9buscHBDSBcN+Pw4hojRfsAXxr4UAhMxQIDAQAB";
