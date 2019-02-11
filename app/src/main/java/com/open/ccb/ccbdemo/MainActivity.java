@@ -39,11 +39,11 @@ public class MainActivity extends com.open.ccb.ccbdemo.BaseActivity implements S
 
 
     public String appKey = "bd97a304_786c_4d86_893e_ab806052656d";
-    public String bPublicUrl = "http://128.194.10.112:16611/t";
+    public String bPublicUrl = "http://128.196.221.13:16688/getMerchantSign";
     public String bPublicKey =   "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAixGPNxb9EPpHG5v8S8WuHrA+NmTNRuX1k07eQ7Z9jAU2BjhFdwYQmH4wpbsx6z5v8tVwDyOb11BNzTJ8gZ79zFnC6LKShsx1WQYa9U24DmOlvIkxMMkjeUzReNvCA659kotmHrDTbLNM+3RFlCRz75efGMOqup07t9flt+7U8DAk38MZ1TxEdZnlXaPjUATvl18MgSlB12gakpsSMXDZ0bJNmRgmUirJ2Tqbi2IK3mcLc8ZT/GU+j9z4Zo5yFZiDAtbjvfZBUcVDwNgetlk/YX+NA+gcYHMBbCnb0uuK+oYGZ2gtt56jT9buscHBDSBcN+Pw4hojRfsAXxr4UAhMxQIDAQAB";
     public String sPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjVdGe8P2JumYU4sB1Zywioxw1+HaZB/KmzrzlClj2m2e4ZPqS5cYe2FCiCwBmyizZrVYGfECugszj7e+OjbrFeqOpCgOYnXrbX0me0YdqLAowELbI4cqRxGciFlbgkjJXLoTHX/ZPPKAaF8VCNfQJrfpAqYZBeGPHWiODu4m3P8lGG5U+kHsjemdFf+5iwBabtm8IKvvE3fIfboXjnsdLSW3xxWjFK2A7iubUA8U0jA9UCCJp61qDnjmMC4hfW5QEWQMchW2D6vRYyZZStKGYxKto60jj5qnqm0+xyX9X5pBz9hTWTIqCHpzbyeLTOeG3l2jQ4ut9ZgVXP9IRj1IzwIDAQAB";
 //    public String sPublicUrl = "https://128.196.200.30:443/api/android";//获取token(开发)
-    public String sPublicUrl = "https://sandbox.open.ccb.com/api/andriod/";//获取token(开发)
+    public String sPublicUrl = "https://128.196.200.30/api/andriod";//获取token(开发)
     private EditText main_url;
     private EditText main_appid;
     private EditText ebPublicKey;
